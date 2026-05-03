@@ -47,6 +47,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "ChainMind · 链脑" }],
     title: "ChainMind — where does the safety actually come from?",
     description:
       "An interactive system for blockchain security and trust analysis.",
@@ -57,6 +58,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "ChainMind — where does the safety actually come from?",
     description: "Architecture, trust, risks, simulation. Psy as case study.",
